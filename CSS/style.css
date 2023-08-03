@@ -184,6 +184,11 @@ html, body {
         padding-right: 1.5px;
     }
 
+    .questions:hover{
+        color:hsl(240, 6%, 50%);
+    }
+
+
     .icons{
         width: 0%;
         
