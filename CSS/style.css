@@ -183,15 +183,19 @@ html, body {
     .qnaDiv{
         padding-right: 1.5px;
     }
-
     .questions:hover{
         color:hsl(240, 6%, 50%);
     }
 
-
     .icons{
         width: 0%;
         
+    }
+    .boxDiv{
+        bottom: 590px;
+        left:105px;
+        width: 100px;
+        height:100px;
     }
 
     .woman-img, .line-img {
@@ -203,17 +207,17 @@ html, body {
         width: 80px;
         height:80px;
     }
-    .boxDiv{
-        bottom: 580px;
-        left:105px;
-        width: 100px;
-        height:100px;
+   
+
+    .line-img{
+        bottom: 150px;
+        left: 55px;
+        width: 185px;
+        height:180px;
     }
 
-
-
     .woman-img{
-        top:-300px;
+        top: -308px;
         left:50px
     }
 
@@ -221,7 +225,6 @@ html, body {
         width: 180px;
     }
     
-}
 
 @media screen and (min-width: 768px) and (max-width: 978px) {
 
