@@ -201,6 +201,8 @@ html, body {
     .boxDiv{
         bottom: 580px;
         left:105px;
+        width: 100px;
+        height:100px;
     }
 
 
