@@ -13,7 +13,7 @@ html, body {
 }
 
 .container-fluid{
-    margin: 100px auto;
+    margin: 8px auto;
     border-radius: 1.5rem;
     width: 65%;
     height: 450px;
@@ -47,6 +47,7 @@ html, body {
     bottom: -100px;
     right:80px;
     z-index: -1;
+    
 }
 
 
@@ -54,8 +55,8 @@ html, body {
     width:300px;
     height: 300px;
     position: relative;
-    bottom:385px;
-    left:165px;
+    bottom:290px;
+    left:175px;
     z-index: 1;
 
 }
@@ -155,6 +156,10 @@ html, body {
 }
 
 @media screen and (min-width: 372px) and (max-width: 820px) {
+
+    .container-fluid{
+        margin: 30px auto;
+    }
     
     *, ::after, ::before {
          box-sizing: content-box; 
@@ -192,13 +197,13 @@ html, body {
         
     }
     .boxDiv{
-        bottom: 590px;
+        bottom: 520px;
         left:105px;
         width: 100px;
         height:100px;
     }
 
-    .woman-img, .line-img {
+    .woman-img{
         width: 190px;
         height:190px;
     }
@@ -225,6 +230,7 @@ html, body {
         width: 180px;
     }
     
+}
 
 @media screen and (min-width: 768px) and (max-width: 978px) {
 
