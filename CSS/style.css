@@ -1,0 +1,236 @@
+html, body {
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0;
+    background-image: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-div{
+    padding:80px 0 70px 0;
+    
+}
+
+.container-fluid{
+    margin: 100px auto;
+    border-radius: 1.5rem;
+    width: 65%;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    
+    
+}
+
+/*SVG ICONS*/
+
+
+.icons{
+    width:500px;
+    position: relative;
+    right:13px;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+
+    
+.woman-img{
+    position: absolute;   
+    top:40px;
+    left:-68px;
+}
+
+.line-img{
+    position: absolute;
+    bottom: -100px;
+    right:80px;
+    z-index: -1;
+}
+
+
+.boxDiv{
+    width:300px;
+    height: 300px;
+    position: relative;
+    bottom:385px;
+    left:165px;
+    z-index: 1;
+
+}
+
+
+
+/* QUESTIONS CONTAINER*/
+
+.title{
+    padding:10px 0 30px 0;
+    font-weight: 700;
+}
+
+.textDiv{
+    padding-top: 30px;
+    width: 500px;
+}
+
+.qna{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    color: hsl(240, 6%, 50%);
+    font-weight: 600;
+    word-spacing: 1px;
+    padding:8px 0 8px 0;
+}
+
+
+.questions:hover{
+    color:hsl(14, 88%, 65%);
+    cursor: pointer;
+}
+
+.questions.clicked{
+    font-weight: 700;
+    color: black;
+}
+
+.divider{
+    background-color:  hsl(240, 5%, 91%);
+    aspect-ratio: 300/1;
+    width: 300px;
+}
+
+.arrowSvg{
+    padding-right: 100px;
+}
+
+/*ANSWER CONTAINER*/
+
+.answers{
+    padding-right: 15px;
+    font-size: 12px;
+}
+
+
+
+
+@media (max-width:1212px){
+    .boxDiv{
+        left: 160px;
+    }
+}
+@media (max-width:1123px){
+    .icons{
+        overflow: visible;
+    }
+
+    .container-fluid{
+        align-items: center;
+    }
+
+    .boxDiv{
+        bottom: 615px;
+        left:100px;
+    }
+}
+
+@media (max-width:934px){
+    .icons{
+        overflow: visible;
+    }
+
+    .woman-img, .line-img, .box-img{
+        width: 300px;
+        height:300px;
+    }
+
+    .woman-img{
+        top:-300px;
+        left:30px
+    }
+
+
+   
+}
+
+@media screen and (min-width: 372px) and (max-width: 820px) {
+    
+    *, ::after, ::before {
+         box-sizing: content-box; 
+    }
+   
+    .arrowSvg{
+        padding-right: 0;
+    }
+
+    
+    .title{
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .answers{
+        font-size: 11px;
+        padding: 0;
+    }
+
+    .qna{
+        font-size: 11px;
+        padding: 5px 8px;
+    }
+
+    .qnaDiv{
+        padding-right: 1.5px;
+    }
+
+    .icons{
+        width: 0%;
+        
+    }
+
+    .woman-img, .line-img {
+        width: 190px;
+        height:190px;
+    }
+
+    .box-img{
+        width: 80px;
+        height:80px;
+    }
+    .boxDiv{
+        bottom: 580px;
+        left:105px;
+    }
+
+
+
+    .woman-img{
+        top:-300px;
+        left:50px
+    }
+
+    .divider{
+        width: 180px;
+    }
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 978px) {
+
+    .boxDiv{
+        bottom: 580px;
+        left:165px;
+    }
+
+    .woman-img, .line-img {
+        width: 190px;
+        height:190px;
+    }
+
+    .box-img{
+        width: 80px;
+        height:80px;
+    }
+    
+}
